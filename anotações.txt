@@ -1,0 +1,35 @@
+                            REACT 
+    1- install 
+        $ npm install -g create-react-app , ele vai ja criar o projeto sem precisar
+        começar do zero e ele sempre entende e direciona para o browser a versão que todos
+        entende sem precisar conhecer o babel e outras coisas
+
+        $ create-react-app reactfirst , react é o nome do projeto
+
+    * Na pasta src
+        Vai está todo o code da aplicação, é la que vai desenvolver tudo
+    * Na pasta public
+        A pagina que o usuário vai ter acesso
+    
+    2 - inicializar o projeto
+        $ npm start ,que vai abrir o localhost:3000 
+
+    3 - deletar 
+        - App.css 
+        - App.test.js
+        - index.css
+        - logo.svg
+
+        * No arquivo index.js, remover a importação do 'index.css'
+        * No arquivo App.js, remover as importações
+
+    4 - Insomnia
+        vai acessar o endereço
+        https://rocketseat-node.herokuapp.com/api/products 
+        para consumir
+    
+    5 - axios
+        $ yarn add axios , vai usar para consumir uma api que está em produção
+
+    6 - router
+        $ yarn add react-router-dom

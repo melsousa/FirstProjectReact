@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// todo lugar que estiver usando <App /> 
+// precisa-se importar o react
+
+//A função reactDOM, vai ser utlizada para rederizar
+// o <App /> e colocar dentro de uma div la no index.html chamada root  
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
